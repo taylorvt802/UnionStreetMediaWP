@@ -91,15 +91,26 @@ Challenge 4 - Git Repository
 
 My challenge was to place my entire wordpress installation under git control. I first created a repository on my desktop to associate with git called UnionStreetMedia. 
 
-First I set up a bare git repo on my local machine. In a terminal session:
+First I set up a git repository on my local machine. In my terminal session I did:
 
-mkdir /Users/taylor/Desktop/UnionStreetMediasite
-cd /Users/taylor/Desktop/UnionStreetMediasite
+mkdir /Users/taylor/Desktop/UnionStreetMediasiteWP
+cd /Users/taylor/Desktop/UnionStreetMediasiteWP
 git init
 touch README.md
 git add README.md
-git commit -m "Initial commit."
+git commit -m “First initial commit."
 
 I used GitHub to add, commit, and push the work to the remote repository by following these exact steps in the terminal.
 
-1) cd 
+git add .
+git commit -m ’entire wordpress installation’
+git remote https://github.com/taylorvt802/UnionStreetMediaWP.git
+git push -u origin master
+
+======
+Bonus
+======
+
+As you can see for this bonus I customized the theme by changing the color format, adding a background image, worked with the content in posts and adding a video, and also downloading the Typecase plugin which allowed me to change the font for each element of the site. 
+
+I wish I could have created more using php but since I am not very experienced with either wordpress or php I had a hard time trusting that the updates to the php files wouldn’t seriously mess anything up. I had a situation with writing on the wrong file on my first attempt for this assignment, which ended up ruining the site. I really enjoyed this assignment and I will probably work with this program for here on out because I loved learned the little that I have the past couple weeks.
